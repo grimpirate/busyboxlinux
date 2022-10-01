@@ -1,5 +1,5 @@
 # busyboxlinux
-Minimal Linux system compiled from source using Busy Box defconfig and Linux kernel allnoconfig with tailoring, respectively
+Minimal Linux system compiled from source using Busy Box defconfig and Linux kernel allnoconfig with tailoring, respectively. Produces an ~15MB image.
 
 # Build environment
 Ubuntu 22.04.1 LTS
