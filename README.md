@@ -1,6 +1,9 @@
 # busyboxlinux
 Minimal Linux system compiled from source using Busy Box defconfig and Linux kernel allnoconfig with tailoring, respectively
 
+# Build environment
+Ubuntu 22.04.1 LTS
+
 ## Busy Box options (menuconfig)
 Settings --->  
 &nbsp;&nbsp;&nbsp;&nbsp;Build static binary (no shared libs)  
