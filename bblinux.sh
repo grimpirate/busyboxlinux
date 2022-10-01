@@ -32,7 +32,7 @@ mkdir -p iso/boot/grub
 
 cd iso/boot/grub
 
-    echo 'menuentry "grid" {' > grub.cfg
+    echo 'menuentry "bblinux" {' > grub.cfg
     echo '  linux /boot/bzImage' >> grub.cfg
     echo '  initrd /boot/initrd.img' >> grub.cfg
     echo '}' >> grub.cfg
@@ -45,6 +45,7 @@ mkdir initrd
 
 cd initrd
 
+#    mkdir -p bin dev proc sys
     mkdir -p bin proc sys
 
     cp ../busybox/busybox ./bin
@@ -55,6 +56,7 @@ cd initrd
 
     echo 'mount -t sysfs none /sys' >> init
     echo 'mount -t proc none /proc' >> init
+#    echo 'mount -t devtmpfs none /dev' >> init
     echo 'sysctl -w kernel.printk="2 4 1 7"' >> init
     echo 'clear' >> init
     echo "setsid sh -c 'exec sh </dev/tty1 >/dev/tty1 2>&1'" >> init
@@ -66,11 +68,11 @@ cd initrd
 
 cd ..
 
-grub-mkrescue -o grid.iso iso
+grub-mkrescue -o bblinux.iso iso
 
 rm -rf initrd
 rm -rf iso
 
-qemu-system-x86_64 -boot d -cdrom grid.iso
+qemu-system-x86_64 -boot d -cdrom bblinux.iso
 
 #qemu-system-x86_64 -kernel iso/boot/bzImage -initrd iso/boot/initrd.img
