@@ -48,6 +48,7 @@ File systems --->
 * [https://github.com/ivandavidov/minimal](https://github.com/ivandavidov/minimal)
 * [https://stackoverflow.com/questions/47448363/can-i-create-bootable-iso-file-after-kernel-compilation-for-the-customized-kern](https://stackoverflow.com/questions/47448363/can-i-create-bootable-iso-file-after-kernel-compilation-for-the-customized-kern)
 * [https://linux-tips.com/t/booting-from-an-iso-image-using-qemu/136](https://linux-tips.com/t/booting-from-an-iso-image-using-qemu/136)
+* [https://tldp.org/HOWTO/XFree-Local-multi-user-HOWTO/build_kernel.html](https://tldp.org/HOWTO/XFree-Local-multi-user-HOWTO/build_kernel.html)
 ---
 
 * [https://gist.github.com/chrisdone/02e165a0004be33734ac2334f215380e](https://gist.github.com/chrisdone/02e165a0004be33734ac2334f215380e)
