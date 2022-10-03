@@ -15,6 +15,22 @@ General setup --->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bblinux  
 &nbsp;&nbsp;&nbsp;&nbsp;Initial RAM filesystem and RAM disk (initramfs/initrd) support  
 &nbsp;&nbsp;&nbsp;&nbsp;De-select all compression modes  
+64-bit kernel // not selecting it causes a conflict if busybox isn't compiled for 32-bit architecture  
+Executable file formats --->  
+&nbsp;&nbsp;&nbsp;&nbsp;Kernel support for ELF binaries  
+&nbsp;&nbsp;&nbsp;&nbsp;Kernel support for scripts starting with #!  
+Device drivers --->  
+&nbsp;&nbsp;&nbsp;&nbsp;Input device support --->  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keyboards ----  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select all options  
+**Exit & Save configuration**
+
+## Linux kernel options
+General setup --->  
+&nbsp;&nbsp;&nbsp;&nbsp;Default hostname  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bblinux  
+&nbsp;&nbsp;&nbsp;&nbsp;Initial RAM filesystem and RAM disk (initramfs/initrd) support  
+&nbsp;&nbsp;&nbsp;&nbsp;De-select all compression modes  
 &nbsp;&nbsp;&nbsp;&nbsp;Configure standard kernel features (expert users) ----  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De-select all except Enable support for printk  
 &nbsp;&nbsp;&nbsp;&nbsp;De-select Enable rseq() system call  
