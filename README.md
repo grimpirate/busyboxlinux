@@ -11,8 +11,6 @@ Settings --->
 
 ## Bare Minimum Linux kernel options
 General setup --->  
-&nbsp;&nbsp;&nbsp;&nbsp;Default hostname  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bblinux  
 &nbsp;&nbsp;&nbsp;&nbsp;Initial RAM filesystem and RAM disk (initramfs/initrd) support  
 &nbsp;&nbsp;&nbsp;&nbsp;De-select all compression modes  
 64-bit kernel // not selecting it causes a conflict if busybox isn't compiled for 32-bit architecture  
