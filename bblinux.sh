@@ -45,8 +45,7 @@ mkdir initrd
 
 cd initrd
 
-#    mkdir -p bin dev proc sys
-    mkdir -p bin proc sys
+    mkdir -p bin dev proc sys
 
     cp ../busybox/busybox ./bin
 
@@ -56,7 +55,7 @@ cd initrd
 
     echo 'mount -t sysfs none /sys' >> init
     echo 'mount -t proc none /proc' >> init
-#    echo 'mount -t devtmpfs none /dev' >> init
+    echo 'mount -t devtmpfs none /dev' >> init
     echo 'sysctl -w kernel.printk="2 4 1 7"' >> init
     echo 'clear' >> init
     echo "setsid sh -c 'exec sh </dev/tty1 >/dev/tty1 2>&1'" >> init
