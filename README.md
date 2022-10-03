@@ -22,7 +22,7 @@ Executable file formats --->
 Device drivers --->  
 &nbsp;&nbsp;&nbsp;&nbsp;Input device support --->  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keyboards ----  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select all options  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AT Keyboard
 **Exit & Save configuration**
 
 ## Linux kernel options
