@@ -9,7 +9,7 @@ Settings --->
 &nbsp;&nbsp;&nbsp;&nbsp;Build static binary (no shared libs)  
 **Exit & Save configuration**
 
-## Linux kernel options
+## Bare Minimum Linux kernel options
 General setup --->  
 &nbsp;&nbsp;&nbsp;&nbsp;Default hostname  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bblinux  
