@@ -20,9 +20,11 @@ Executable file formats --->
 &nbsp;&nbsp;&nbsp;&nbsp;Kernel support for ELF binaries  
 &nbsp;&nbsp;&nbsp;&nbsp;Kernel support for scripts starting with #!  
 Device drivers --->  
+&nbsp;&nbsp;&nbsp;&nbsp;Generic Driver options --->  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maintain a devtmpfs filesystem to mount at /dev  
 &nbsp;&nbsp;&nbsp;&nbsp;Input device support --->  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keyboards ----  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AT Keyboard
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AT Keyboard  
 **Exit & Save configuration**
 
 ## Linux kernel options
