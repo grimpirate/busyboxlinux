@@ -42,6 +42,7 @@ File systems --->
 
 ## References
 * [https://www.youtube.com/watch?v=asnXWOUKhTA](https://www.youtube.com/watch?v=asnXWOUKhTA)
+* [https://www.youtube.com/watch?v=MBx3JPgHYfI](https://www.youtube.com/watch?v=MBx3JPgHYfI)
 * [https://weeraman.com/building-a-tiny-linux-kernel-8c07579ae79d](https://weeraman.com/building-a-tiny-linux-kernel-8c07579ae79d)
 * [https://mgalgs.io/2021/03/23/how-to-build-a-custom-linux-kernel-for-qemu-using-docker.html](https://mgalgs.io/2021/03/23/how-to-build-a-custom-linux-kernel-for-qemu-using-docker.html)
 * [https://wiki.gentoo.org/wiki/Custom_Initramfs](https://wiki.gentoo.org/wiki/Custom_Initramfs)
